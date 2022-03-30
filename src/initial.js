@@ -12,7 +12,7 @@ export default function homePage() {
     content.appendChild(para);
 
     const image = document.createElement(`img`);
-    image.src = `../src/derek-duran-Jz4QMhLvGgw-unsplash.jpg`
+    image.src = `/home/kasey/repos/restaurant-page/src/derek-duran-Jz4QMhLvGgw-unsplash.jpg`
     content.appendChild(image);
 
     const credit = document.createElement(`div`);
