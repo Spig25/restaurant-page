@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    place-content: center;
+    background-color: red;
+}
+
+img {
+    max-width: 30vw;
+}
+
+#content {
+    display: grid;
+    justify-items: center;
+    gap: 15px;
+    margin: 50px 15vw;
+    background-color: red;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 1rem;
+}
