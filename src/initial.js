@@ -1,3 +1,5 @@
+import derek from "./derek-duran-Jz4QMhLvGgw-unsplash.jpg";
+
 export default function homePage() {
     const content = document.querySelector(`#content`)
     content.innerHTML = ``
@@ -12,7 +14,8 @@ export default function homePage() {
     content.appendChild(para);
 
     const image = document.createElement(`img`);
-    image.src = `/home/kasey/repos/restaurant-page/src/derek-duran-Jz4QMhLvGgw-unsplash.jpg`
+    // image.src = `/home/kasey/repos/restaurant-page/src/derek-duran-Jz4QMhLvGgw-unsplash.jpg`
+    image.src = derek
     content.appendChild(image);
 
     const credit = document.createElement(`div`);
