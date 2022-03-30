@@ -7,7 +7,7 @@ module.exports = {
     index: './src/index.js',
     initial: `./src/initial.js`,
     menu: `./src/menu.js`,
-    contact: `./src/contact.js`,
+    contact: `./src/contact.js`
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -28,6 +28,10 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
     ],
   },
